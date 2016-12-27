@@ -13,8 +13,6 @@ import com.vvorld.makeformomos.R;
 
 public class SplashActivity extends AppCompatActivity  {
 
-    String now_playing, earned;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

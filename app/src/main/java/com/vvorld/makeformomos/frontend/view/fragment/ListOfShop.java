@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import com.vvorld.makeformomos.R;
 
 
-public class ListOfShop extends Fragment {
+public class ListOfShop extends BaseFragment{
 
 
     @Override
