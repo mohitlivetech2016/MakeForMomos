@@ -21,7 +21,7 @@ import android.widget.Toast;
 
 import com.vvorld.makeformomos.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
 
     private SectionsPagerAdapter mSectionsPagerAdapter;
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+
         tabLayout.setupWithViewPager(mViewPager);
 
     }
